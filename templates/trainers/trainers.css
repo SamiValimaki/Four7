@@ -1,0 +1,57 @@
+.tLogo {
+  background: url("../../images/four7logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #3B5866;
+  height: 200px;
+  width: 100%;
+  margin-bottom: 2px;
+
+}
+
+.profile-1 {
+  background-color: black;
+  color: white;
+  height: 400px;
+  width: 100%;
+  margin-bottom: 2px;
+  font-size: 20px;
+
+}
+
+.coachjm {
+  background: url("../../images/coachjm.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 300px;
+}
+
+.jlist {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.jwlist {
+  display: flex;
+  justify-content: center;
+}
+
+.jwyoga {
+  background: url("../../images/jwyoga.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 300px;
+}
+
+
+.trainersList {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}

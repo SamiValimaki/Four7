@@ -1,0 +1,177 @@
+.home {
+  background: url("../images/47ronin.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.image {
+  height: 300px;
+  width: 450px;
+  background-color: green;
+}
+
+/*.logo {
+  background: url("../images/four7logo.png") center no-repeat;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 300px;
+  width: 500px;
+}*/
+
+.logo-img {
+  background: url("../images/four7logo.png") center no-repeat;
+  background-size: contain;
+  width: 450px;
+  height: 250px;
+}
+
+.social-footer {
+  display: flex;
+  justify-content: center;
+  width: 100%
+  height: auto;
+  padding: 15px 0 5px 0;
+  background-color: black;
+  border-top: solid thin darkgray;
+}
+
+.social-text {
+  color: white;
+  font-size: 20px;
+  line-height: 50px;
+  margin-right: -25px;
+}
+
+.about {
+  display: inline-flex;
+  color: white;
+  background-color: black;
+  height: 400px;
+  width: 100%;
+}
+
+.aboutImg {
+  background: url("../images/fitness_first.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 50%;
+}
+
+.aboutList {
+  display: flex;
+  flex-direction: column;;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 50%;
+  padding: 25px;
+}
+
+.about-box {
+  display: flex;
+  flex-direction: column;;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+}
+
+.list-item{
+  width: 100%
+}
+
+
+
+.program {
+  background: url("../images/kidsBoxing.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: blue;
+  height: 300px;
+  width: 100%;
+}
+.programImg {
+  height: 300px;
+  width: 400px;
+}
+
+.programList {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.programList li {
+
+}
+
+.events {
+  display: flex;;
+  background: url("../images/wallart.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: red;
+  height: 400px;
+  width: 100%;
+}
+
+.eventsList {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: black;
+  width: 100%;
+  height: auto;
+  color: white;
+  font-size: 20px;
+  list-style: none;
+}
+
+/*.footer-logo {
+  background: url("../images/four7logo.png") center no-repeat;
+  background-size: contain;
+  width: 420px;
+  height: auto;
+}
+
+.footerList {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.footerList li {
+  padding: 10px;
+}
+
+.contact {
+
+}
+
+.contactList {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;;
+  align-items: flex-start;
+  list-style: none;
+}
+
+.contactList li {
+  padding: 10px;
+}*/

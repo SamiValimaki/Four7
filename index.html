@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang"en" ng-app="four7">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="templates/home/home.css">
+    <link rel="stylesheet" href="templates/trainers/trainers.css">
+    <link rel="stylesheet" href="templates/classes/classes.css">
+    <link rel="stylesheet" href="templates/pricing/pricing.css">
+    <link rel="stylesheet" href="templates/video/video.css">
+    <link rel="stylesheet" href="templates/contact/contact.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Four7</title>
+  </head>
+
+<body>
+
+
+  <header>
+    <div>
+      <nav class="mainNav">
+        <div class="list">
+          <div class="nav-item">
+          <a class="homeLink" ui-sref="home">HOME</a></div>
+          <div class="nav-item">
+            <a class="classesLink" ui-sref="classes">CLASSES</a></div>
+          <div class="nav-item">
+            <a class="pricingLink" ui-sref="pricing">PRICING</a></div>
+          <div class="nav-item">
+            <a class="trainersLink" ui-sref="trainers">TRAINERS</a></div>
+          <div class="nav-item">
+            <a class="videoLink" ui-sref="video">VIDEO</a></div>
+          <div class="nav-item">
+          <a class="contactLink" ui-sref="contact">CONTACT</a></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+
+<ui-view></ui-view>
+
+<footer class="footer">
+  <div class="logo-img">
+  </div>
+  <div class="footer-logo">
+  <div class="contact">
+  </div>
+    <div class="footerList">
+      <ul class="contactList">
+        <li>Contact Us</li>
+        <li>Phone Number:  801-898-1420</li>
+        <li>1972 N 300 W Spanish Fork Utah 84660</li>
+        <li>Email: four7trainingcenter@gmail.com</li>
+      </ul>
+    </div>
+</footer>
+<div class="social-footer">
+  <div class="social-text">Four7 Social Media</div>
+  <ul class="footerList">
+    <li>
+      <a target="_blank" title="follow me on Facebook" href="https://www.facebook.com/jason.mertlich.1?fref=ts"><img alt="" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook30x30.png" border=0></a>
+    </li>
+    <li>
+        <a target="_blank" title="follow me on Twitter" href="https://twitter.com/lastbreathproj?lang=en"><img alt="" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter30x30.png" border=0></a>
+    </li>
+    <li>
+      <a target="_blank" title="follow me on Instagram" href="https://www.instagram.com/four7training/"><img alt="" src="https://c866088.ssl.cf3.rackcdn.com/assets/instagram30x30.png" border=0></a>
+    </li>
+  </ul>
+</div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
+    <script src="./routes.js"></script>
+    <script src="./mainCtrl.js"></script>
+  </body>
+
+</html>

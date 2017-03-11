@@ -1,0 +1,107 @@
+.mainNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: white;
+  background-color: black;
+  height: 60px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.nav-item {
+  height: 28px;
+  width: auto;
+  padding: 0 15px;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+  background-color: #3B5866;
+}
+
+.list {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding-right: 2%
+}
+
+.list li {
+  padding: 10px;
+}
+
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: black;
+  width: 100%;
+  height: auto;
+  color: white;
+  font-size: 20px;
+  list-style: none;
+}
+
+/*.footer-logo {
+  background: url("../images/four7logo.png") center no-repeat;
+  background-size: contain;
+  width: 420px;
+  height: auto;
+}*/
+
+.footerList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.footerList li {
+  padding: 10px;
+}
+
+.contact {
+
+}
+
+.contactList {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;;
+  align-items: flex-start;
+  list-style: none;
+}
+
+.contactList li {
+  padding: 10px;
+}
+
+.logo-img {
+  background: url("../images/four7logo.png") center no-repeat;
+  background-size: contain;
+  width: 420px;
+  height: auto;
+}
+
+.social-footer {
+  display: flex;
+  justify-content: center;
+  width: 100%
+  height: auto;
+  padding: 15px 0 5px 0;
+  background-color: black;
+  border-top: solid thin darkgray;
+}
+
+.social-text {
+  color: white;
+  font-size: 20px;
+  line-height: 50px;
+  margin-right: -25px;
+}

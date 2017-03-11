@@ -1,0 +1,16 @@
+.topContact {
+  background-color: red;
+}
+
+.logo-contact {
+  background: url("../images/four7logo.png") center no-repeat;
+  background-size: contain;
+  width: 450px;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+.calander {
+  height: 400px;
+  width: 100%;
+}
