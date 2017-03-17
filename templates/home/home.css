@@ -2,6 +2,7 @@
   background: url("../../images/47Ronin.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100vh;
   width: 100%;
 }
@@ -11,15 +12,6 @@
   width: 450px;
   background-color: green;
 }
-
-/*.logo {
-  background: url("../images/four7logo.png") center no-repeat;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  height: 300px;
-  width: 500px;
-}*/
 
 .logo-img {
   background: url("../../images/four7logo.png") center no-repeat;
@@ -49,16 +41,20 @@
   display: inline-flex;
   color: white;
   background-color: black;
-  height: 400px;
+  height: 500px;
   width: 100%;
+  margin-bottom: 2px;
 }
 
 .aboutImg {
   background: url("../../images/fitness_first.jpg");
   background-size: contain;
   background-repeat: no-repeat;
+  border: solid 3px white;
+  border-radius: 5px;
   height: 400px;
   width: 50%;
+  margin-top: 70px;
 }
 
 .aboutList {
@@ -69,6 +65,7 @@
   list-style: none;
   width: 50%;
   padding: 25px;
+
 }
 
 .about-box {
@@ -87,84 +84,71 @@
 
 
 .program {
-  background: url("../../images/kidsBoxing.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-color: #3B5866;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   color: white;
-  background-color: blue;
-  height: 300px;
+  height: 450px;
   width: 100%;
+  margin-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  font-size: 20px;
 }
 .programImg {
+  background: url("../../images/kidsBoxing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 300px;
-  width: 400px;
+  width: 500px;
+  margin-right: 20px;
+  border: solid 3px white;
+  border-radius: 5px;
 }
 
 .programList {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  font-size: 18px;
+
 }
 
+.kid {
+  background: url("../../images/mmaKid.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid 3px white;
+  border-radius: 5px;
+  height: 400px;
+  width: 300px;
+}
 
 .events {
+  display: flex;
+  justify-content: space-around;
+  color: white;
   background-color: #3B5866;
-  height: 400px;
+  height: 450px;
   width: 100%;
+  margin-bottom: 2px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.imgQuote {
+  background: url("../../images/siler.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: solid 3px white;
+  border-radius: 5px;
+  height: 400px;
+  width: 400px;
 }
 
 .eventVid {
-  display: flex;
-  align-items: flex-end;
-  padding-top: 10px;
-  padding-right: 10px;
-}
-
-.footer {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  background-color: black;
-  width: 100%;
-  height: auto;
-  color: white;
-  font-size: 20px;
-  list-style: none;
-}
-
-/*.footer-logo {
-  background: url("../images/four7logo.png") center no-repeat;
-  background-size: contain;
-  width: 420px;
-  height: auto;
-}
-
-.footerList {
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-}
-
-.footerList li {
-  padding: 10px;
-}
-
-.contact {
+  padding-left: 20px;
 
 }
-
-.contactList {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;;
-  align-items: flex-start;
-  list-style: none;
-}
-
-.contactList li {
-  padding: 10px;
-}*/

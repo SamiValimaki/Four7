@@ -9,6 +9,10 @@
   font-size: 20px;
 }
 
+.white {
+  color:white;
+}
+
 .nav-item {
   height: 28px;
   width: auto;
@@ -17,7 +21,7 @@
 
 .nav-item:hover {
   cursor: pointer;
-  background-color: #3B5866;
+  background-color: silver;
 }
 
 .list {
@@ -48,12 +52,6 @@
   list-style: none;
 }
 
-/*.footer-logo {
-  background: url("../images/four7logo.png") center no-repeat;
-  background-size: contain;
-  width: 420px;
-  height: auto;
-}*/
 
 .footerList {
   display: flex;
