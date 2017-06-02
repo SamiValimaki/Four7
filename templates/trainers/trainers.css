@@ -27,6 +27,13 @@
   width: 300px;
 }
 
+
+
+.bio {
+  height: 100%;
+  width: 85%;
+}
+
 .jlist {
   display: flex;
   justify-content: center;
@@ -36,6 +43,8 @@
 .jwlist {
   display: flex;
   justify-content: center;
+  list-style: none;
+
 }
 
 .jwyoga {
@@ -52,6 +61,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding: 10px;
 }
